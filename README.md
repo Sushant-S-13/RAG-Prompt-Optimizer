@@ -23,3 +23,8 @@ This project is a document-based **Retrieval-Augmented Generation (RAG)** system
 - When a user types a prompt, it retrieves the most relevant document chunks.
 - Feeds those chunks + the prompt to Gemini, which returns an optimized version.
 
+## Updates
+
+- Dynamic Question Generation:
+*The prompt template now instructs the LLM to either return an optimized prompt or generate follow-up questions when context is insufficient*
+
